@@ -1,0 +1,72 @@
+
+THe newton law2
+algoritma
+simpan rumus sigma F=m.a
+simpan m=600kg dan a=2m/s
+masukan nilai m dan a ke dalam rumus F=m.a
+cetak hasil F=m.a
+
+pseudo code
+1.Set sigma F= M. A
+2.Set M=600kg and A=2m/s2
+3.Write the calculation M=600 multiple by A=2 
+4.display 1200 Newton.
+
+2.Tahun kabisat
+algoritma
+masukan nilai "tahun"
+jika "tahun" habis dibagi 4 atau bersisa 0 ,dan tahun dibagi 100 mempunyai sisa
+cetak "tahun kabisat"
+jika hasilbagi"tahun"dengan 4 atau 100 atau 400 tidak bersisa alias nol
+cetak kabisat, selain itu bukan kabisat 
+
+pseudocode 
+1.input "year" with any value
+2. IF "year" mod 4=0 then "year"mod 100!=0
+3.   Display "Kabisat"
+4. Else IF "year"mod 4,then "year"mod 100 then "year"mod 400
+   all the result are 0
+5.   Display "Kabisat"
+6. else 
+     display "Bukan Kabisat"
+
+3.Laundry Day
+algoritma
+simpan cucian 1
+selama cucian kurang dari 20
+tambah cucian satu satu
+jka sudah 20 cucian
+nyalakan mesin cuci
+
+pseudocode
+Store "cucian"with 1
+while "cucian" less then  20
+add "cucian" by 1
+else
+display "nyalakan mesin cuci"
+
+
+4.Periksa kuku
+algoritma
+1.cek kuku murid pertama
+2 jika kuku murid panjang
+  "guru menghukum murid tersebut"
+ jika pendek
+   "guru memuji murid itu"
+selama belum sampai 20 murid guru terus mengerjakan step 1 dan 2
+
+
+pseudocode
+1.check the  first nail student
+2.IF the nail student is long
+      "the theacher will punish that student"
+  else
+     " The teacher will praise the student"
+
+while the teacher check less then or same with 20
+  Do
+ the 1 and 2 step
+
+
+   
+
