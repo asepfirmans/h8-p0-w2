@@ -1,0 +1,56 @@
+1. Newton Second Law
+------------------------------------------------------------------------
+
+STORE M with 600kg
+STORE A with  2m/s2
+STORE sigma F is M times A
+
+CALCULATE 600 times 2
+save 1200 Newton as result sigma F
+ 
+DISPLAY "F"
+
+2.Tahun kabisat
+
+CALCULATE year % 4
+save  as "hasilsisabagi4"
+
+CALCULATE year % 100
+save  as "hasilsisabagi100"
+
+CALCULATE year % 400
+save  as "hasilsisabagi400"
+
+IF hasilsisabagi4 = 0 AND hasilsisabagi100 != 0
+	DISPLAY "Kabisat"
+ELSE IF hasilsisabagi4 = 0 AND hasilsisabagi100 = 0 AND hasilsisabagi400 = 0
+	DISPLAY "Kabisat"
+ELSE
+    DISPLAY "bukan kabisat"
+
+ENDIF
+
+3.Laundry Day
+
+STORE "baju" WITH 0
+STORE "max" WITH 20
+
+WHILE  "baju" less then or same with 20
+  ADD "baju" by 1
+else
+   DISPLAY "nyalakan mesin cuci"
+
+4.Periksa kuku
+
+1.STORE "murid" WITH 0
+2.STORE "banyakmurid" WITH 40
+3.STORE "kuku" WITH any value
+
+4.WHILE "murid" < "banyakmurid" DO
+  IF "kuku" equals "panjang" 
+     DO "MENGHUKUM SISWA/SISWI"
+  ELSE
+     DO "MEMUJI SISWA/SISWI"
+  CALCULATE "murid" + 1 
+  BACK to no.4
+END WHILE
