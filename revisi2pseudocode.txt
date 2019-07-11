@@ -1,0 +1,85 @@
+1. Newton Second Law
+------------------------------------------------------------------------
+
+STORE M with 600kg
+STORE A with  2m/s2
+STORE sigma F is M times A
+
+CALCULATE 600 times 2
+save 1200 Newton as result sigma F
+ 
+DISPLAY "F"
+
+2.Tahun kabisat
+
+//algoritma
+masukan nilai "tahun"
+hitung hasilbagi "tahun" dengan 4,100 dan 400.
+simpan hasilbagi langkah 2
+jika "tahun" habis dibagi 4 atau bersisa 0 ,dan tahun dibagi 100 mempunyai sisa
+cetak "tahun kabisat"
+jika hasilbagi "tahun" dengan 4 dan hasilbagi "tahun" dengan 100  dan hasilbagi "tahun" dengan 400 tidak bersisa alias nol
+cetak kabisat, selain itu bukan kabisat 
+
+
+//pseudocode
+INPUT any value year
+CALCULATE year % 4
+save  as "hasilsisabagi4"
+
+CALCULATE year % 100
+save  as "hasilsisabagi100"
+
+CALCULATE year % 400
+save  as "hasilsisabagi400"
+
+IF hasilsisabagi4 = 0 AND hasilsisabagi100 != 0
+	DISPLAY "Kabisat"
+ELSE IF hasilsisabagi4 = 0 AND hasilsisabagi100 = 0 AND hasilsisabagi400 = 0
+	DISPLAY "Kabisat"
+ELSE
+    DISPLAY "bukan kabisat"
+
+ENDIF
+
+3.Laundry Day
+//algoritma
+simpan cucian 0
+selama cucian kurang dari 20
+tambah cucian satu satu
+jika sudah 20 cucian
+nyalakan mesin cuci
+
+
+//pseudocode
+STORE "baju" WITH 0
+STORE "max" WITH 20
+
+WHILE  "baju" less then or same with 20
+  ADD "baju" by 1
+END WHILE
+   DISPLAY "nyalakan mesin cuci"
+
+4.Periksa kuku
+//algoritma
+ SIMPAN murid dengan nol
+ SIMPAN banyak murid dengan 40
+ SIMPAN nilai kuku dengan panjang dan pendek
+ jika kuku murid panjang
+  "guru menghukum murid tersebut"
+ jika pendek
+   "guru memuji murid itu"
+selama belum sampai 40 murid guru terus mengerjakan step 1 dan 2
+//pseudocode
+1.STORE "murid" WITH 0
+2.STORE "banyakmurid" WITH 40
+3.STORE "kuku" WITH any value
+
+4.WHILE "murid" <= "banyakmurid" DO
+  IF "kuku" equals "panjang" 
+     DO "MENGHUKUM MURID"
+  ELSE
+     DO "MEMUJI MURID"
+  CALCULATE "murid" + 1 
+  BACK to no.4
+END WHILE
